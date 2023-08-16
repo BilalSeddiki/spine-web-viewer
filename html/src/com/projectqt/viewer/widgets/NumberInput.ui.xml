@@ -1,6 +1,0 @@
-<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
-    <div>
-        <label ui:field='inputLabel'></label>
-        <input ui:field='numberInput' type="number"></input>
-    </div>
-</ui:UiBinder>

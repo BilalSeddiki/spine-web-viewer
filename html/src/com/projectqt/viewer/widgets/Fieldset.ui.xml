@@ -1,5 +1,0 @@
-<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
-    <fieldset>
-        <legend ui:field="legend"></legend>
-    </fieldset>
-</ui:UiBinder>

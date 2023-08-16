@@ -2,7 +2,7 @@
 <!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit trunk//EN" "http://www.gwtproject.org/doctype/2.8.0/gwt-module.dtd">
 <module>
 	<source path="com/esotericsoftware/spine" />
-	<source path="com/projectqt/asset" />
-	<source path="com/projectqt/json" />
-	<source path="com/projectqt/viewer" />
+	<source path="com/spine/asset" />
+	<source path="com/spine/json" />
+	<source path="com/spine/viewer" />
 </module>

@@ -1,6 +1,0 @@
-<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
-    <div>
-        <input ui:field='colorInput' type="color"></input>
-        <label ui:field='colorLabel'>Background color</label>
-    </div>
-</ui:UiBinder>

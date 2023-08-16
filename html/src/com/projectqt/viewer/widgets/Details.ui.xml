@@ -1,5 +1,0 @@
-<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
-    <details>
-        <summary ui:field="summary"></summary>
-    </details>
-</ui:UiBinder>

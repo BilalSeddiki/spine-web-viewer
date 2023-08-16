@@ -4,8 +4,8 @@ gwt {
     minHeapSize="1G"
 
     src = files(file("src/")) // Needs to be in front of "modules" below.
-    modules 'com.projectqt.viewer.GdxDefinition'
-    devModules 'com.projectqt.viewer.GdxDefinitionSuperdev'
+    modules 'com.spine.viewer.GdxDefinition'
+    devModules 'com.spine.viewer.GdxDefinitionSuperdev'
     project.webAppDirName = 'webapp'
 
     compiler {
