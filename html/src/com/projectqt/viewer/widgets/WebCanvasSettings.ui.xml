@@ -1,0 +1,12 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:w='urn:import:com.projectqt.viewer.widgets'>
+    <g:FlowPanel>
+        <g:Button ui:field="fullscreenButton">Fullscreen</g:Button>
+        <w:NumberInput ui:field="xPositionInput" label="Position X" value="0" step="1"></w:NumberInput>
+        <w:NumberInput ui:field="yPositionInput" label="Position Y" value="0" step="1"></w:NumberInput>
+        <w:NumberInput ui:field="zoomInput" label="Zoom" value="1" step="0.10"></w:NumberInput>
+        <w:NumberInput ui:field="rotationInput" label="Rotation" value="0" step="0.01"></w:NumberInput>
+        <w:ColorInput ui:field="colorInput" text="Background color"></w:ColorInput>
+        <w:MultiFileUpload ui:field="fileUploadWidget"></w:MultiFileUpload>
+        <g:HTMLPanel ui:field="skeletonSettings"></g:HTMLPanel>
+    </g:FlowPanel>
+</ui:UiBinder>

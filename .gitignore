@@ -1,0 +1,7 @@
+.gradle/
+.vscode/
+core/bin/
+core/build/
+html/bin/
+html/build/
+html/war/

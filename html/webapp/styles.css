@@ -1,0 +1,45 @@
+canvas {
+    cursor: default;
+    outline: none;
+}
+
+body {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+    color: rgb(200, 200, 200);
+}
+
+dialog {
+    width: 80%;
+    height: 80%;
+    background-color: #222222;
+    overflow-y: initial;
+}
+
+#dialog-options {
+    height: 20%;
+}
+
+#dialog-result {
+    height: 80%;
+    overflow-y: auto;
+}
+
+#dialog-result > .icon {
+    width: 128px;
+    height: auto;
+    cursor: pointer;
+}
+
+#dialog-result > .icon:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+.gwt-RadioButton, .gwt-CheckBox {
+    display: inline-block;
+}

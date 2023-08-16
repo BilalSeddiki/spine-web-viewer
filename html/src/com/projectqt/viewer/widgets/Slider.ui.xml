@@ -1,0 +1,11 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
+    <div>
+        <div>
+            <label ui:field='sliderLabel'></label>
+            <button ui:field='sliderButton'>Reset</button>
+        </div>
+        <div>
+            <input ui:field='sliderInput' type="range"></input>
+        </div>
+    </div>
+</ui:UiBinder>

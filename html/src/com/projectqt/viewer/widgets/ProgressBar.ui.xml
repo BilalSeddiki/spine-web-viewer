@@ -1,0 +1,6 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'>
+    <div>
+        <progress ui:field='progressBar'></progress>
+        <label ui:field='progressLabel'>Timeline</label>
+    </div>
+</ui:UiBinder>
