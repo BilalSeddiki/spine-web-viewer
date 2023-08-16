@@ -1,4 +1,4 @@
-<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:w='urn:import:com.projectqt.viewer.widgets'>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g='urn:import:com.google.gwt.user.client.ui' xmlns:w='urn:import:com.spine.viewer.widgets'>
     <g:HTMLPanel>
         <details>
             <summary ui:field="title"></summary>

@@ -40,7 +40,7 @@ public class MultiFileUpload extends FileUpload implements HasValue<Array<File>>
             reader.onload = function(e) {
                 buffer.push(current_file.name, reader.result);
                 if (index >= files.length - 1) {
-                    self.@com.projectqt.viewer.widgets.MultiFileUpload::setJsValue(*)(buffer);
+                    self.@com.spine.viewer.widgets.MultiFileUpload::setJsValue(*)(buffer);
                 }
                 else {
                     index++;

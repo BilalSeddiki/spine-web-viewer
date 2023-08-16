@@ -3,7 +3,7 @@
 <module rename-to="html">
 	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
     <inherits name="com.google.common.collect.Collect" />
-	<inherits name='ProjectQTViewer' />
+	<inherits name='SpineViewer' />
 
     <!-- Inherit the default GWT style sheet. You can change       -->
     <!-- the theme of your GWT application by uncommenting          -->
@@ -12,12 +12,12 @@
     <!-- <inherits name="com.google.gwt.user.theme.chrome.Chrome"/> -->
     <!-- <inherits name="com.google.gwt.user.theme.dark.Dark"/> -->
 
-	<entry-point class='com.projectqt.viewer.client.HtmlLauncher' />
+	<entry-point class='com.spine.viewer.client.HtmlLauncher' />
 	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>
 	<set-configuration-property name="gdx.assetpath" value="../assets" />
-    <set-configuration-property name="gdx.assetfilterclass" value="com.projectqt.viewer.AssetFilter"/>
+    <set-configuration-property name="gdx.assetfilterclass" value="com.spine.viewer.AssetFilter"/>
     <extend-configuration-property name="gdx.reflect.include" value="com.badlogic.gdx.backends.gwt.preloader" />
-    <extend-configuration-property name="gdx.reflect.include" value="com.projectqt.viewer.json" />
+    <extend-configuration-property name="gdx.reflect.include" value="com.spine.viewer.json" />
 	<set-property name="user.agent" value="gecko1_8, safari"/>
 	<collapse-property name="user.agent" values="*" />
 </module>
