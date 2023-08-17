@@ -1,8 +1,6 @@
-Web Spine skeleton and animation viewer powered with libgdx.
-
-Currently live at https://remedytwo.github.io/spine-2.1.25-viewer/
+Static web skeleton viewer for Esetoric Software's Spine, powered with libgdx. Compatible with skeleton data exported from Spine Editor version up to 2.1.27.
 
 ---
 
 ### Compile
-```./gradlew html:dist```
+See https://libgdx.com/wiki/deployment/deploying-your-application#deploy-web
