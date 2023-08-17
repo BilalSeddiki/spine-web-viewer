@@ -1,3 +1,8 @@
-To compile the project: ```./gradlew html:dist```
+Web Spine skeleton and animation viewer powered with libgdx.
 
-To debug the project: ```./gradlew html:superDev```
+Currently live at https://remedytwo.github.io/spine-2.1.25-viewer/
+
+---
+
+### Compile
+```./gradlew html:dist```
